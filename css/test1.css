@@ -113,6 +113,12 @@ h3 {
     background-size: cover;
     bottom: 10px;
     right: 10px;
+    transition: 0.2s;
+}
+
+#logo:hover {
+    transform: rotate(2deg);
+    bottom: 17px;
 }
 
 @media screen and (max-width: 867px){
