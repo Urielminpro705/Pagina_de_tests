@@ -32,7 +32,7 @@ body{
 }
 
 #landing{
-
+    text-align: center;
     margin-top: 50px;
     height: 85%;
     display: flex;
