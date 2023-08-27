@@ -98,7 +98,7 @@ h3 {
     border-radius: 5px;
     width: 100%;
     height: 300px;
-    background-position: 0px -350px;
+    background-position: center;
     background-size: cover;
 }
 
@@ -120,18 +120,7 @@ h3 {
     bottom: 17px;
 }
 
-@media screen and (max-width: 867px){
-    .titulo {
-        background-position: 0px -200px;
-    }
-}
-
 @media screen and (max-width: 697px){
-    .titulo {
-        background-position: 0px -80px;
-        height: 150px;
-    }
-
     h3 {
         font-size: 1.5rem;
     }
