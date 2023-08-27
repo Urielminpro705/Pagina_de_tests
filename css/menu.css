@@ -129,6 +129,26 @@ h2 {
     background-color: rgba(0, 0, 0, 0.226);
 }
 
+#test1{
+    background-image: url(../images/huevos.jpg);
+}
+
+#test2{
+    background-image: url(../images/inteligenciaEmocional.jpg);
+}
+
+#test3{
+    background-image: url(../images/autoestima.jpg);
+}
+
+#test4{
+    background-image: url(../images/resilencia.jpg);
+}
+
+#test5{
+    background-image: url(../images/habilidadesSociales.jpg);
+}
+
 @media screen and (max-width: 697px){
     h2 {
         font-size: 1.3rem;
