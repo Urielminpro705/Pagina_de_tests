@@ -55,7 +55,7 @@ nav{
     justify-content: center;
     border-radius: 10px;
     height: 60px;
-    width: 30%;
+    width: 200px;
     text-decoration: none;
     border: 1px solid var(--green);
     color: var(--vanilla);
