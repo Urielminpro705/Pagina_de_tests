@@ -9,8 +9,16 @@
 <body>
     <div class="container">
         <p class="titulo">Hola de nuevo!</p>
-        <input type="text">
-        <input type="password">
-        <button class="iniciar">Iniciar sesión</button>
+        <p class="sub">Si ya tienes una cuenta inicia sesión</p>
+        <div class="input-container">
+            <input type="text"  id="correo" class="input-field">
+            <label for="correo" class="input-label">Correo electronico</label>
+        </div>
+        <div class="input-container">
+            <input type="password" id="contraseña" class="input-field">
+            <label for="contraseña" class="input-label">Contraseña</label>
+        </div>
+        <button class="iniciar-btn">Iniciar sesión</button>
+        <p>¿No tienes una cuenta? <a id="crear-cuenta">Crear cuenta</a></p>
     </div>
 </body>
