@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/sesion.css">
-    <title>Iniciar sesion</title>
+    <title>Crear cuenta</title>
 </head>
 <body>
     <div class="container">
-        <p class="titulo">Hola de nuevo!</p>
-        <p class="sub">Si ya tienes una cuenta inicia sesión</p>
+        <p class="titulo">Bienvenido</p>
+        <p class="sub">Ingresa los siguientes datos</p>
+        <div class="input-container">
+            <input type="text" id="nombre" class="input-field">
+            <label for="nombre" class="input-label">Nombre</label>
+        </div>
         <div class="input-container">
             <input type="text"  id="correo" class="input-field">
             <label for="correo" class="input-label">Correo electronico</label>
@@ -18,7 +22,7 @@
             <input type="password" id="contraseña" class="input-field">
             <label for="contraseña" class="input-label">Contraseña</label>
         </div>
-        <button class="iniciar-btn">Iniciar sesión</button>
-        <p class="text-link">¿No tienes una cuenta? <a id="link" href="cuenta-nueva.html">Crear cuenta</a></p>
+        <button class="iniciar-btn" id="nuevaCuenta-btn">Crear cuenta</button>
+        <p class="text-link">¿Ya tienes una cuenta? <a id="link" href="#">Iniciar sesión</a></p>
     </div>
 </body>
