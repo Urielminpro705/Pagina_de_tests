@@ -125,3 +125,31 @@ h3 {
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1280px){
+    .container {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 967px){
+    .container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .container {
+        width: 400px;
+    }
+
+    .text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .container {
+        width: 350px;
+    }
+}
