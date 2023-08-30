@@ -112,6 +112,38 @@ body {
     text-align: center;
 }
 
+.checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.check-container {
+    position: relative;
+    width: 73%;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.check-container p{
+    margin: 0;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.check-container label{
+    font-size: 0.9rem;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 697px){
     .container {
         width: 390px;
@@ -128,5 +160,14 @@ body {
     }
     .input-label {
         left: 8px;
+    }
+
+    .check-container p{
+        margin-right: 10px;
+    }
+
+    .check-container {
+        flex-direction: column;
+        margin: 10px;
     }
 }
